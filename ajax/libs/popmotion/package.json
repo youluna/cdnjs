@@ -30,16 +30,13 @@
     "svg"
   ],
   "license": "MIT",
-  "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/Popmotion/popmotion.git",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "popmotion*.js"
-        ]
-      }
-    ]
-  }
+  "npmName": "popmotion",
+  "npmFileMap": [
+    {
+      "basePath": "dist",
+      "files": [
+        "popmotion*.js"
+      ]
+    }
+  ]
 }
