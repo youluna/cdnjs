@@ -274,6 +274,7 @@ node_modules/
 /ajax/libs/weather-icons/1.1endpoint
 /ajax/libs/weather-icons/1.1ghpagesendpoint
 /ajax/libs/winjs/release
+/ajax/libs/xterm/3.*-beta*
 /ajax/libs/yamlcss/rm
 
 #ignore snapshot tags
