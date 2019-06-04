@@ -1,6 +1,6 @@
 {
   "name": "jstat",
-  "version": "1.8.1",
+  "version": "1.8.2",
   "description": "Statistical Library for JavaScript",
   "filename": "jstat.min.js",
   "author": {
