@@ -23,21 +23,9 @@
   "npmName": "intl-messageformat",
   "npmFileMap": [
     {
-      "basePath": "dist",
+      "basePath": "dist/umd",
       "files": [
         "**/*"
-      ]
-    },
-    {
-      "basePath": "build",
-      "files": [
-        "**/*"
-      ]
-    },
-    {
-      "basePath": "",
-      "files": [
-        "locale-data/*"
       ]
     }
   ],
