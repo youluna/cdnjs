@@ -21,7 +21,7 @@
   "npmName": "es6-tween",
   "npmFileMap": [
     {
-      "basePath": "dist",
+      "basePath": "bundled",
       "files": [
         "**/*"
       ]
