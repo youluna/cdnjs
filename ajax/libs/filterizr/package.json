@@ -31,13 +31,7 @@
     {
       "basePath": "dist",
       "files": [
-        "**/*"
-      ]
-    },
-    {
-      "basePath": "src",
-      "files": [
-        "jquery.filterizr*"
+        "**/!(*.ts)"
       ]
     }
   ]
