@@ -1,7 +1,7 @@
 {
   "name": "tinymce",
   "filename": "tinymce.min.js",
-  "version": "5.0.9",
+  "version": "5.0.11",
   "description": "TinyMCE rich text editor",
   "homepage": "http://www.tinymce.com",
   "keywords": [
