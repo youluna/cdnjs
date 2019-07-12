@@ -27,7 +27,7 @@
       {
         "basePath": "release",
         "files": [
-          "**/*"
+          "**/!(*.gz)"
         ]
       }
     ]
