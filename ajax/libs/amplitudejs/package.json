@@ -23,13 +23,7 @@
       {
         "basePath": "dist",
         "files": [
-          "**/*"
-        ]
-      },
-      {
-        "basePath": "js",
-        "files": [
-          "amplitude*"
+          "**/!(*.txt)"
         ]
       }
     ]
