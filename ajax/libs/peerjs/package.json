@@ -1,7 +1,7 @@
 {
   "name": "peerjs",
   "filename": "peerjs.min.js",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "PeerJS client",
   "homepage": "http://peerjs.com/",
   "keywords": [
