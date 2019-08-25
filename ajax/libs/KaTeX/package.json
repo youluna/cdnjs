@@ -24,7 +24,7 @@
         "files": [
           "katex.min.js",
           "katex.min.css",
-          "contrib/*",
+          "contrib/!(*.mjs)",
           "fonts/*"
         ]
       }
