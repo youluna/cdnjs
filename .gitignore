@@ -320,6 +320,7 @@ node_modules/
 /ajax/libs/*/*/**/*.md
 /ajax/libs/*/*/**/*.markdown
 /ajax/libs/*/*/**/*.ts
+/ajax/libs/*/*/**/*.mjs
 /ajax/libs/*/*/**/*.sh
 /ajax/libs/*/*/**/*.flow
 /ajax/libs/*/*/**/*.git
