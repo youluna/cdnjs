@@ -2,25 +2,10 @@
   "author": "hashids.org <npm@invent.life> (https://github.com/hashids)",
   "name": "hashids",
   "description": "Generate YouTube-like ids from numbers. Use Hashids when you do not want to expose your database ids to the user.",
-  "contributors": [
-    {
-      "name": "Ivan Akimov",
-      "email": "ivan@barreleye.com",
-      "url": "https://twitter.com/IvanAkimov"
-    },
-    {
-      "name": "Bazyli Brzóska",
-      "email": "npm@invent.life",
-      "url": "https://twitter.com/niieani"
-    }
-  ],
   "homepage": "http://hashids.org/javascript",
   "repository": {
     "type": "git",
     "url": "https://github.com/niieani/hashids.js.git"
-  },
-  "bugs": {
-    "url": "https://github.com/niieani/hashids.js/issues"
   },
   "filename": "dist/hashids.min.js",
   "license": "MIT",
