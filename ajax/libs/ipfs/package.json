@@ -19,7 +19,7 @@
     {
       "basePath": "dist",
       "files": [
-        "**/*"
+        "**/!(index.min.js.LICENSE)"
       ]
     }
   ]
