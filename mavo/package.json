@@ -13,7 +13,7 @@
     "url": "https://github.com/mavoweb/mavo/issues"
   },
   "homepage": "https://mavo.io",
-    "autoupdate": {
+  "autoupdate": {
     "source": "git",
     "target": "git://github.com/mavoweb/mavo.git",
     "fileMap": [
