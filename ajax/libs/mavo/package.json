@@ -14,9 +14,8 @@
   },
   "homepage": "https://mavo.io",
   "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/mavoweb/mavo.git",
-    "fileMap": [
+    "npmName": "mavo",
+    "npmFileMap": [
       {
         "basePath": "dist",
         "files": [
