@@ -16,11 +16,10 @@ var semver = require('semver');
 var tempDirPath;
 var args;
 
-if (fs.existsSync('/run/shm')) {
-  tempDirPath = '/run/shm/' + process.env.USER + '/cdnjs_NPM_temp';
-} else {
-  tempDirPath = path.join(__dirname, 'temp');
+if (process.env.BOT_CDNJS_NPM_TEMP === undefined) {
+  throw 'BOT_CDNJS_NPM_TEMP is missing';
 }
+tempDirPath = process.env.BOT_CDNJS_NPM_TEMP;
 
 colors.setTheme({
   prompt: 'cyan',
