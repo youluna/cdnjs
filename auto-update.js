@@ -366,3 +366,7 @@ if (args.length > 0 && args[0] === 'run') {
 } else {
   console.log('to start "npm auto-update", pass the "run" arg'.prompt);
 }
+
+process.on('uncaughtException', (err) => {
+  console.log(err);
+});
