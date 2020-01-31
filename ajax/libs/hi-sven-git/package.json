@@ -11,7 +11,7 @@
   "filename": "index.js",
   "autoupdate": {
     "source": "git",
-    "target": "https://github.com/xtuc/hi-sven.git",
+    "target": "git://github.com/xtuc/hi-sven.git",
     "fileMap": [
       {
         "basePath": "",
