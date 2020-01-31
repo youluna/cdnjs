@@ -10,7 +10,7 @@
   },
   "filename": "index.js",
   "autoupdate": {
-    "source": "npm"
+    "source": "npm",
     "target": "hi-sven",
     "fileMap": [
       {
