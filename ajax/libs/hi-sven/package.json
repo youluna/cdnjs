@@ -12,7 +12,7 @@
   "npmName": "hi-sven",
   "npmFileMap": [
     {
-      "basePath": ".",
+      "basePath": "",
       "files": [
         "index.js"
       ]
