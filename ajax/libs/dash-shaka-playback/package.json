@@ -1,7 +1,7 @@
 {
   "name": "dash-shaka-playback",
-  "filename": "dash-shaka-playback.js",
-  "version": "2.0.4",
+  "filename": "dash-shaka-playback.min.js",
+  "version": "2.0.8",
   "description": "clappr dash playback based on shaka player",
   "keywords": [
     "dash playback",
@@ -14,20 +14,13 @@
   },
   "author": "Clappr team",
   "license": "BSD-3-Clause",
-  "dependencies": {
-    "shaka-player": "v2.0.0-beta3",
-    "clappr": "0.2.61"
-  },
-  "autoupdate": {
-    "target": "dash-shaka-playback",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "dash-shaka-playback*"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "dash-shaka-playback",
+  "npmFileMap": [
+    {
+      "basePath": "",
+      "files": [
+        "dash-shaka-playback*"
+      ]
+    }
+  ]
 }

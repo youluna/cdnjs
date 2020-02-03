@@ -10,22 +10,19 @@
     "templates",
     "views"
   ],
+  "npmName": "backbone.layoutmanager",
+  "npmFileMap": [
+    {
+      "basePath": "",
+      "files": [
+        "*.js"
+      ]
+    }
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/tbranyen/backbone.layoutmanager"
   },
   "license": "MIT",
-  "author": "Tim Branyen (@tbranyen)",
-  "autoupdate": {
-    "target": "backbone.layoutmanager",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "*.js"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "author": "Tim Branyen (@tbranyen)"
 }

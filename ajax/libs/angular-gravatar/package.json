@@ -11,22 +11,18 @@
     "gravatar"
   ],
   "license": "MIT",
-  "dependencies": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/wallin/angular-gravatar"
   },
-  "filename": "angular-gravatar.min.js",
-  "autoupdate": {
-    "target": "angular-gravatar",
-    "fileMap": [
-      {
-        "basePath": "build",
-        "files": [
-          "**/*"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "angular-gravatar",
+  "npmFileMap": [
+    {
+      "basePath": "build",
+      "files": [
+        "**/*"
+      ]
+    }
+  ],
+  "filename": "angular-gravatar.min.js"
 }

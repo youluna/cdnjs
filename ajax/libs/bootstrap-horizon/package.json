@@ -7,6 +7,15 @@
     "type": "git",
     "url": "git://github.com/Zertz/bootstrap-horizon.git"
   },
+  "npmName": "bootstrap-horizon",
+  "npmFileMap": [
+    {
+      "basePath": "",
+      "files": [
+        "bootstrap-horizon*"
+      ]
+    }
+  ],
   "keywords": [
     "bootstrap",
     "horizontal",
@@ -15,17 +24,5 @@
   ],
   "author": "Pier-Luc Gendreau",
   "license": "MIT",
-  "homepage": "https://zertz.github.io/bootstrap-horizon/",
-  "autoupdate": {
-    "target": "bootstrap-horizon",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "bootstrap-horizon*"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "homepage": "https://zertz.github.io/bootstrap-horizon/"
 }

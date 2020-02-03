@@ -3,6 +3,17 @@
   "filename": "angular-spinner.min.js",
   "description": "Angular directive to show an animated spinner (using spin.js)",
   "version": "0.8.1",
+  "npmName": "angular-spinner",
+  "npmFileMap": [
+    {
+      "basePath": "",
+      "files": [
+        "angular-spinner.js",
+        "angular-spinner.min.js",
+        "angular-spinner.min.js.map"
+      ]
+    }
+  ],
   "author": {
     "name": "Uri Shaked"
   },
@@ -15,19 +26,5 @@
     "spin.js",
     "spinner"
   ],
-  "license": "MIT",
-  "autoupdate": {
-    "target": "angular-spinner",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "angular-spinner.js",
-          "angular-spinner.min.js",
-          "angular-spinner.min.js.map"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "license": "MIT"
 }

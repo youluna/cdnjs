@@ -7,10 +7,6 @@
     "email": "github@nonplus.net",
     "name": "Stepan Riha"
   },
-  "dependencies": {
-    "@types/angular": "^1.5",
-    "@types/angular-ui-router": "^1.1"
-  },
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -21,16 +17,13 @@
     "AngularJS",
     "ui-router"
   ],
-  "autoupdate": {
-    "target": "angular-ui-router-default",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "angular-ui-router-default*"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "angular-ui-router-default",
+  "npmFileMap": [
+    {
+      "basePath": "",
+      "files": [
+        "angular-ui-router-default*"
+      ]
+    }
+  ]
 }

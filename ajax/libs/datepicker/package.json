@@ -1,7 +1,7 @@
 {
   "name": "datepicker",
   "description": "A simple jQuery datepicker plugin.",
-  "version": "0.4.0",
+  "version": "0.6.5",
   "filename": "datepicker.min.js",
   "license": "MIT",
   "repository": {
@@ -26,25 +26,19 @@
     "web",
     "development"
   ],
-  "dependencies": {
-    "jquery": ">= 1.9.1"
-  },
-  "autoupdate": {
-    "target": "@fengyuanchen/datepicker",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*"
-        ]
-      },
-      {
-        "basePath": "",
-        "files": [
-          "i18n/datepicker*"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "@fengyuanchen/datepicker",
+  "npmFileMap": [
+    {
+      "basePath": "dist",
+      "files": [
+        "**/!(datepicker.esm.js*|datepicker.common.js*)"
+      ]
+    },
+    {
+      "basePath": "",
+      "files": [
+        "i18n/datepicker*"
+      ]
+    }
+  ]
 }

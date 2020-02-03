@@ -13,16 +13,13 @@
   "version": "0.7.0",
   "author": "Brian Ford",
   "license": "MIT",
-  "autoupdate": {
-    "target": "angular-socket-io",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "socket!(.spec*)"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "angular-socket-io",
+  "npmFileMap": [
+    {
+      "basePath": "",
+      "files": [
+        "socket!(.spec*)"
+      ]
+    }
+  ]
 }

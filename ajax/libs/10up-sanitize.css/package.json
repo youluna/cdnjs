@@ -1,6 +1,6 @@
 {
   "name": "10up-sanitize.css",
-  "version": "4.1.0",
+  "version": "11.0.0",
   "description": "Render elements consistently. Style with best practices.",
   "filename": "sanitize.min.css",
   "repository": {
@@ -22,16 +22,13 @@
   "author": "Jonathan Neal <jonathantneal@hotmail.com> (http://jonathantneal.com)",
   "license": "CC0-1.0",
   "homepage": "https://jonathantneal.github.io/sanitize.css/",
-  "autoupdate": {
-    "target": "sanitize.css",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "sanitize*"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "sanitize.css",
+  "npmFileMap": [
+    {
+      "basePath": "",
+      "files": [
+        "sanitize*"
+      ]
+    }
+  ]
 }

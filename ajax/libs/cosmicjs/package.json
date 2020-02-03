@@ -1,13 +1,8 @@
 {
   "name": "cosmicjs",
-  "version": "2.35.0",
+  "version": "3.2.40",
   "description": "The official client module for Cosmic JS. This module helps you easily add dynamic content to your website or application.",
   "filename": "cosmicjs.browser.min.js",
-  "dependencies": {
-    "es6-promise": "^3.0.2",
-    "isomorphic-fetch": "^2.2.0",
-    "lodash": "^3.10.1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cosmicjs/cosmicjs-node.git"
@@ -21,16 +16,13 @@
   "author": "Tony Spiro <tspiro@tonyspiro.com> (http://tonyspiro.com/)",
   "license": "ISC",
   "homepage": "https://cosmicjs.com/",
-  "autoupdate": {
-    "target": "cosmicjs",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "cosmicjs*"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "cosmicjs",
+  "npmFileMap": [
+    {
+      "basePath": "",
+      "files": [
+        "cosmicjs*"
+      ]
+    }
+  ]
 }

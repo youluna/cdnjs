@@ -1,7 +1,16 @@
 {
   "name": "async",
+  "npmName": "async",
+  "npmFileMap": [
+    {
+      "basePath": "dist",
+      "files": [
+        "**/!(*.mjs)"
+      ]
+    }
+  ],
   "filename": "async.min.js",
-  "version": "2.1.4",
+  "version": "3.1.1",
   "description": "Higher-order functions and common patterns for asynchronous code",
   "author": "Caolan McMahon",
   "repository": {
@@ -14,17 +23,5 @@
     "utility",
     "module"
   ],
-  "license": "MIT",
-  "autoupdate": {
-    "target": "async",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "license": "MIT"
 }

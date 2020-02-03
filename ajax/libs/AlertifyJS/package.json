@@ -1,7 +1,7 @@
 {
   "name": "AlertifyJS",
   "filename": "alertify.min.js",
-  "version": "1.8.0",
+  "version": "1.13.1",
   "description": "AlertifyJS is a javascript framework for developing pretty browser dialogs and notifications.",
   "homepage": "http://alertifyjs.com",
   "keywords": [
@@ -20,16 +20,13 @@
     "url": "git@github.com:MohammadYounes/AlertifyJS.git"
   },
   "license": "GPL-3.0",
-  "autoupdate": {
-    "target": "alertifyjs",
-    "fileMap": [
-      {
-        "basePath": "build",
-        "files": [
-          "**/*.!(zip)"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "alertifyjs",
+  "npmFileMap": [
+    {
+      "basePath": "build",
+      "files": [
+        "**/*.!(zip)"
+      ]
+    }
+  ]
 }

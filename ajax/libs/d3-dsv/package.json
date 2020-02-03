@@ -1,7 +1,7 @@
 {
   "name": "d3-dsv",
   "filename": "d3-dsv.min.js",
-  "version": "1.0.3",
+  "version": "1.0.8",
   "description": "A parser and formatter for delimiter-separated values, such as CSV and TSV",
   "keywords": [
     "d3",
@@ -18,16 +18,13 @@
     "type": "git",
     "url": "git+https://github.com/d3/d3-dsv.git"
   },
-  "autoupdate": {
-    "target": "d3-dsv",
-    "fileMap": [
-      {
-        "basePath": "build",
-        "files": [
-          "**/!(package.js)"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "d3-dsv",
+  "npmFileMap": [
+    {
+      "basePath": "build",
+      "files": [
+        "**/!(package.js)"
+      ]
+    }
+  ]
 }

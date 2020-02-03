@@ -2,7 +2,7 @@
   "name": "chroma-js",
   "filename": "chroma.min.js",
   "description": "JavaScript library for color conversions",
-  "version": "1.2.1",
+  "version": "2.1.0",
   "author": "Gregor Aisch",
   "keywords": [
     "color"
@@ -11,17 +11,14 @@
     "type": "git",
     "url": "git://github.com/gka/chroma.js.git"
   },
-  "license": "MIT",
-  "autoupdate": {
-    "target": "chroma-js",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "chroma.min.js"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "chroma-js",
+  "npmFileMap": [
+    {
+      "basePath": "",
+      "files": [
+        "chroma.min.js"
+      ]
+    }
+  ],
+  "license": "MIT"
 }

@@ -21,16 +21,13 @@
   },
   "license": "MIT",
   "homepage": "http://meetselva.github.com/attrchange/",
-  "autoupdate": {
-    "target": "attrchange",
-    "fileMap": [
-      {
-        "basePath": "js",
-        "files": [
-          "attrchange*.js"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "attrchange",
+  "npmFileMap": [
+    {
+      "basePath": "js",
+      "files": [
+        "attrchange*.js"
+      ]
+    }
+  ]
 }

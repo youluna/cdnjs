@@ -1,7 +1,7 @@
 {
   "name": "cookiesjs",
   "filename": "cookies.min.js",
-  "version": "1.4.2",
+  "version": "3.0.3",
   "description": "Intuitive cookie manipulation library",
   "author": "Francisco Presencia <developerfrancisco@hotmail.com>",
   "keywords": [
@@ -17,16 +17,13 @@
     "type": "git",
     "url": "git+https://github.com/franciscop/cookies.js.git"
   },
-  "autoupdate": {
-    "target": "cookiesjs",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "cookies*"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "cookiesjs",
+  "npmFileMap": [
+    {
+      "basePath": "",
+      "files": [
+        "cookies*"
+      ]
+    }
+  ]
 }

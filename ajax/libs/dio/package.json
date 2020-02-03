@@ -2,7 +2,7 @@
   "name": "dio",
   "filename": "dio.min.js",
   "description": "Dio is a lightweight (~7kb) feature rich Virtual DOM framework",
-  "version": "5.0.3",
+  "version": "7.1.0",
   "homepage": "https://thysultan.com/dio",
   "license": "MIT",
   "author": {
@@ -25,16 +25,13 @@
     "type": "git",
     "url": "https://github.com/thysultan/dio.js"
   },
-  "autoupdate": {
-    "target": "dio.js",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "dio*"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "dio.js",
+  "npmFileMap": [
+    {
+      "basePath": "",
+      "files": [
+        "dio!(.server)*.+(js|css|map)"
+      ]
+    }
+  ]
 }

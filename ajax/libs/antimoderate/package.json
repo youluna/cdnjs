@@ -7,27 +7,24 @@
     "type": "git",
     "url": "https://github.com/sunstorymvp/antimoderate.git"
   },
-  "license": {
-    "type": "See README.md",
-    "url": "https://github.com/whackashoe/antimoderate#license"
-  },
+  "npmName": "antimoderate",
+  "npmFileMap": [
+    {
+      "basePath": "",
+      "files": [
+        "antimoderate*"
+      ]
+    }
+  ],
+  "license": "MIT",
   "author": {
     "name": "Jett LaRue",
     "url": "https://jettlarue.com"
   },
   "keywords": [
-    "antimoderate"
-  ],
-  "autoupdate": {
-    "target": "antimoderate",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "antimoderate*"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+    "antimoderate",
+    "image",
+    "progressive",
+    "loading"
+  ]
 }

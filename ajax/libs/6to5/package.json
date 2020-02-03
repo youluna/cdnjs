@@ -24,18 +24,15 @@
     "transpiler",
     "6to5"
   ],
-  "license": "MIT",
-  "autoupdate": {
-    "target": "6to5",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "browser-polyfill.js",
-          "browser.js"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "6to5",
+  "npmFileMap": [
+    {
+      "basePath": "",
+      "files": [
+        "browser-polyfill.js",
+        "browser.js"
+      ]
+    }
+  ],
+  "license": "MIT"
 }

@@ -14,17 +14,14 @@
     "table",
     "md-data-table"
   ],
-  "author": "Daniel Nagy",
-  "autoupdate": {
-    "target": "angular-material-data-table",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "angular-material-data-table",
+  "npmFileMap": [
+    {
+      "basePath": "dist",
+      "files": [
+        "**/*"
+      ]
+    }
+  ],
+  "author": "Daniel Nagy"
 }

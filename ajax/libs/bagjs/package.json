@@ -17,16 +17,13 @@
     "url": "git://github.com/nodeca/bag.js.git"
   },
   "license": "MIT",
-  "autoupdate": {
-    "target": "bagjs",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "bag*"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "bagjs",
+  "npmFileMap": [
+    {
+      "basePath": "",
+      "files": [
+        "bag*"
+      ]
+    }
+  ]
 }

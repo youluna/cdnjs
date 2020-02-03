@@ -20,28 +20,17 @@
   },
   "license": "MIT",
   "homepage": "http://www.d3plus.org",
-  "dependencies": {
-    "d3": "^3.5.2",
-    "heap": "^0.2.5",
-    "numeric": "^1.2.6",
-    "simplify-js": "^1.2.1",
-    "static-kdtree": "^1.0.1",
-    "topojson": "^1.6.18"
-  },
   "filename": "d3plus.min.js",
-  "autoupdate": {
-    "target": "d3plus",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "d3plus.full.js",
-          "d3plus.full.min.js",
-          "d3plus.js",
-          "d3plus.min.js"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "d3plus",
+  "npmFileMap": [
+    {
+      "basePath": "",
+      "files": [
+        "d3plus.full.js",
+        "d3plus.full.min.js",
+        "d3plus.js",
+        "d3plus.min.js"
+      ]
+    }
+  ]
 }

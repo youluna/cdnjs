@@ -18,16 +18,13 @@
   "homepage": "https://camwiegert.github.io/baffle",
   "author": "Cam Wiegert <cam@camwiegert.com>",
   "license": "MIT",
-  "autoupdate": {
-    "target": "baffle",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "baffle",
+  "npmFileMap": [
+    {
+      "basePath": "dist",
+      "files": [
+        "**/*"
+      ]
+    }
+  ]
 }

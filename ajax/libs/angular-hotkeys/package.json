@@ -17,16 +17,13 @@
     "type": "git",
     "url": "git://github.com/chieffancypants/angular-hotkeys.git"
   },
-  "autoupdate": {
-    "target": "angular-hotkeys",
-    "fileMap": [
-      {
-        "basePath": "build",
-        "files": [
-          "*"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "angular-hotkeys",
+  "npmFileMap": [
+    {
+      "basePath": "build",
+      "files": [
+        "*"
+      ]
+    }
+  ]
 }

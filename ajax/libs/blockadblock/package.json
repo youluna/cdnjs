@@ -23,16 +23,13 @@
     "type": "git",
     "url": "git://github.com/sitexw/BlockAdBlock.git"
   },
-  "autoupdate": {
-    "target": "blockadblock",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "blockadblock*.js"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "blockadblock",
+  "npmFileMap": [
+    {
+      "basePath": "",
+      "files": [
+        "blockadblock*.js"
+      ]
+    }
+  ]
 }

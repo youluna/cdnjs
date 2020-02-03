@@ -20,19 +20,15 @@
     "type": "git",
     "url": "https://github.com/vorillaz/devicons.git"
   },
-  "dependencies": {},
-  "license": "MIT",
-  "autoupdate": {
-    "target": "devicons",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "css/devicons.min.css",
-          "fonts/*"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "devicons",
+  "npmFileMap": [
+    {
+      "basePath": "",
+      "files": [
+        "css/devicons.min.css",
+        "fonts/*"
+      ]
+    }
+  ],
+  "license": "MIT"
 }

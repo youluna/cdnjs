@@ -1,7 +1,7 @@
 {
   "name": "bottlejs",
   "filename": "bottle.min.js",
-  "version": "1.5.0",
+  "version": "1.7.2",
   "description": "A powerful dependency injection micro container",
   "repository": {
     "type": "git",
@@ -17,16 +17,13 @@
   ],
   "author": "Stephen Young <young.steveo@gmail.com>",
   "license": "MIT",
-  "autoupdate": {
-    "target": "bottlejs",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/!(*.ts)"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "bottlejs",
+  "npmFileMap": [
+    {
+      "basePath": "dist",
+      "files": [
+        "**/!(*.ts)"
+      ]
+    }
+  ]
 }

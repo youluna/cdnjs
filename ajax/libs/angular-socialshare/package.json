@@ -1,6 +1,6 @@
 {
   "name": "angular-socialshare",
-  "version": "2.3.3",
+  "version": "2.3.11",
   "description": "A social urls and content sharing directive for angularjs.",
   "filename": "angular-socialshare.min.js",
   "homepage": "http://720kb.githb.io/angular-socialshare",
@@ -22,16 +22,13 @@
     "email": "filippo.oretti@gmail.com",
     "url": "https://github.com/45kb"
   },
-  "autoupdate": {
-    "target": "angular-socialshare",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "angular-socialshare",
+  "npmFileMap": [
+    {
+      "basePath": "dist",
+      "files": [
+        "**/*"
+      ]
+    }
+  ]
 }

@@ -15,16 +15,13 @@
   },
   "author": "Luigi De Rosa <lurukee@gmail.com>",
   "license": "MIT",
-  "autoupdate": {
-    "target": "barba.js",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "barba.js",
+  "npmFileMap": [
+    {
+      "basePath": "dist",
+      "files": [
+        "**/*"
+      ]
+    }
+  ]
 }

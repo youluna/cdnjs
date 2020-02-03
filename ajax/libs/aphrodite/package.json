@@ -1,7 +1,7 @@
 {
   "name": "aphrodite",
   "filename": "aphrodite.min.js",
-  "version": "1.1.0",
+  "version": "2.4.0",
   "description": "Inline styles in JS that just work (TM)",
   "keywords": [
     "css",
@@ -14,20 +14,13 @@
   },
   "author": "Jamie Wong",
   "license": "MIT",
-  "dependencies": {
-    "asap": "^2.0.3",
-    "inline-style-prefixer": "^2.0.0"
-  },
-  "autoupdate": {
-    "target": "aphrodite",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "aphrodite",
+  "npmFileMap": [
+    {
+      "basePath": "dist",
+      "files": [
+        "**/*"
+      ]
+    }
+  ]
 }

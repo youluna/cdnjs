@@ -19,16 +19,13 @@
     "url": "git://github.com/botmonster/jquery-bootpag.git"
   },
   "homepage": "http://botmonster.github.com/jquery-bootpag",
-  "autoupdate": {
-    "target": "bootpag",
-    "fileMap": [
-      {
-        "basePath": "lib",
-        "files": [
-          "jquery.bootpag*.js"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "bootpag",
+  "npmFileMap": [
+    {
+      "basePath": "lib",
+      "files": [
+        "jquery.bootpag*.js"
+      ]
+    }
+  ]
 }

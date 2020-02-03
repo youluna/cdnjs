@@ -1,6 +1,6 @@
 {
   "name": "angular-permission",
-  "version": "5.1.0",
+  "version": "6.0.0",
   "filename": "angular-permission.min.js",
   "description": "Simple route authorization via roles/permissions",
   "author": {
@@ -19,16 +19,13 @@
   ],
   "license": "MIT",
   "homepage": "http://www.rafaelvidaurre.com",
-  "autoupdate": {
-    "target": "angular-permission",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "angular-permission",
+  "npmFileMap": [
+    {
+      "basePath": "dist",
+      "files": [
+        "**/*"
+      ]
+    }
+  ]
 }

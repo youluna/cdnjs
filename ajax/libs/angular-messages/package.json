@@ -1,6 +1,6 @@
 {
   "name": "angular-messages",
-  "version": "1.6.1",
+  "version": "1.7.9",
   "filename": "angular-messages.min.js",
   "description": "AngularJS module that provides enhanced support for displaying messages within templates",
   "repository": {
@@ -19,16 +19,13 @@
   },
   "license": "MIT",
   "homepage": "http://angularjs.org",
-  "autoupdate": {
-    "target": "angular-messages",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "angular-messages*.+(map|js)"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "angular-messages",
+  "npmFileMap": [
+    {
+      "basePath": "",
+      "files": [
+        "angular-messages*.+(map|js)"
+      ]
+    }
+  ]
 }

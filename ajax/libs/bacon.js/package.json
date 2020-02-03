@@ -1,7 +1,7 @@
 {
   "name": "bacon.js",
   "filename": "Bacon.min.js",
-  "version": "0.7.89",
+  "version": "3.0.12",
   "author": "Juha Paananen",
   "description": "A small functional reactive programming lib for JavaScript.",
   "homepage": "http://baconjs.blogspot.com",
@@ -13,21 +13,18 @@
     "lib",
     "frp"
   ],
+  "npmName": "baconjs",
+  "npmFileMap": [
+    {
+      "basePath": "dist",
+      "files": [
+        "*.js"
+      ]
+    }
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/baconjs/bacon.js.git"
   },
-  "license": "MIT",
-  "autoupdate": {
-    "target": "baconjs",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "*.js"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "license": "MIT"
 }

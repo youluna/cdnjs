@@ -1,6 +1,6 @@
 {
   "name": "backbone-react-component",
-  "version": "0.10.0",
+  "version": "1.0.0",
   "filename": "backbone-react-component-min.js",
   "description": "Backbone.React.Component is a wrapper for React.Component and brings all the power of Facebook's React to Backbone.js",
   "author": {
@@ -11,9 +11,6 @@
     "type": "git",
     "url": "https://github.com/magalhas/backbone-react-component.git"
   },
-  "dependencies": {
-    "underscore": "^1.6.0"
-  },
   "keywords": [
     "backbone",
     "react",
@@ -23,18 +20,15 @@
     "server",
     "client"
   ],
-  "license": "MIT",
-  "autoupdate": {
-    "target": "backbone-react-component",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "/backbone-react-component-min.js",
-          "/backbone-react-component.js"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "backbone-react-component",
+  "npmFileMap": [
+    {
+      "basePath": "dist",
+      "files": [
+        "/backbone-react-component-min.js",
+        "/backbone-react-component.js"
+      ]
+    }
+  ],
+  "license": "MIT"
 }

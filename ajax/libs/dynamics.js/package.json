@@ -19,16 +19,13 @@
     "dynamics"
   ],
   "license": "MIT",
-  "autoupdate": {
-    "target": "dynamics.js",
-    "fileMap": [
-      {
-        "basePath": "lib",
-        "files": [
-          "dynamics*"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "dynamics.js",
+  "npmFileMap": [
+    {
+      "basePath": "lib",
+      "files": [
+        "dynamics*"
+      ]
+    }
+  ]
 }

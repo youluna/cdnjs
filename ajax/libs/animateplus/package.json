@@ -1,8 +1,8 @@
 {
   "name": "animateplus",
-  "version": "1.4.0",
+  "version": "2.1.1",
   "description": "CSS and SVG animation library",
-  "filename": "animate.min.js",
+  "filename": "animateplus.min.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bendc/animateplus.git"
@@ -19,16 +19,13 @@
     "email": "ben@deaxon.com"
   },
   "license": "MIT",
-  "autoupdate": {
-    "target": "animateplus",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "animate*.js"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "animateplus",
+  "npmFileMap": [
+    {
+      "basePath": "",
+      "files": [
+        "animate*.js"
+      ]
+    }
+  ]
 }

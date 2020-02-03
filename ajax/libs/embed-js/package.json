@@ -1,6 +1,6 @@
 {
   "name": "embed-js",
-  "version": "4.1.10",
+  "version": "5.0.4",
   "description": "A JavaScript plugin that analyses the string and embeds emojis, media, tweets, code and services.",
   "keywords": [
     "JavaScript-plugin",
@@ -23,16 +23,13 @@
   },
   "homepage": "http://riteshkr.com/embed.js",
   "license": "MIT",
-  "autoupdate": {
-    "target": "embed-js",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "embed-js",
+  "npmFileMap": [
+    {
+      "basePath": "umd",
+      "files": [
+        "**/*"
+      ]
+    }
+  ]
 }

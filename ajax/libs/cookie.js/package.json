@@ -1,6 +1,6 @@
 {
   "name": "cookie.js",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "filename": "cookie.min.js",
   "description": "A tiny JavaScript library that simplifies cookies.",
   "keywords": [
@@ -12,16 +12,13 @@
     "type": "git",
     "url": "git://github.com/florian/cookie.js.git"
   },
-  "autoupdate": {
-    "target": "cookie_js",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "cookie*"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "cookie_js",
+  "npmFileMap": [
+    {
+      "basePath": "",
+      "files": [
+        "cookie*"
+      ]
+    }
+  ]
 }

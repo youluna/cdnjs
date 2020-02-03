@@ -2,7 +2,7 @@
   "name": "draft-js",
   "description": "A React framework for building text editors.",
   "filename": "Draft.min.js",
-  "version": "0.9.1",
+  "version": "0.11.4",
   "keywords": [
     "draftjs",
     "editor",
@@ -15,20 +15,13 @@
     "url": "https://github.com/facebook/draft-js"
   },
   "license": "BSD-3-Clause",
-  "dependencies": {
-    "fbjs": "^0.8.0-alpha.1",
-    "immutable": "^3.7.4"
-  },
-  "autoupdate": {
-    "target": "draft-js",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "draft-js",
+  "npmFileMap": [
+    {
+      "basePath": "dist",
+      "files": [
+        "**/*"
+      ]
+    }
+  ]
 }

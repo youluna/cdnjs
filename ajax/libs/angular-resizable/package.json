@@ -20,22 +20,19 @@
   "author": "Reklino",
   "license": "MIT",
   "homepage": "http://codepen.io/Reklino/pen/raRaXq/",
-  "autoupdate": {
-    "target": "angular-resizable",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "angular-resizable*"
-        ]
-      },
-      {
-        "basePath": "src",
-        "files": [
-          "angular-resizable*"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "angular-resizable",
+  "npmFileMap": [
+    {
+      "basePath": "",
+      "files": [
+        "angular-resizable*"
+      ]
+    },
+    {
+      "basePath": "src",
+      "files": [
+        "angular-resizable*"
+      ]
+    }
+  ]
 }

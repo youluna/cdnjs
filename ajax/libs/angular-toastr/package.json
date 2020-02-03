@@ -17,16 +17,13 @@
   ],
   "license": "MIT",
   "description": "Angular-toastr is a notification library based on CodeSeven/toastr but written for Angular.js",
-  "autoupdate": {
-    "target": "angular-toastr",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "angular-toastr",
+  "npmFileMap": [
+    {
+      "basePath": "dist",
+      "files": [
+        "**/*"
+      ]
+    }
+  ]
 }

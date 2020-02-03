@@ -14,9 +14,6 @@
     "Sparkle",
     "JQuery plugin"
   ],
-  "dependencies": {
-    "jquery": "~2.1.4"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ymc-thzi/clickspark.js.git"
@@ -24,16 +21,13 @@
   "author": "Thomas Zinnbauer",
   "license": "MIT",
   "homepage": "http://www.ymc.ch/sandbox/clickspark/demo.html",
-  "autoupdate": {
-    "target": "clickspark.js",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "clickspark.js",
+  "npmFileMap": [
+    {
+      "basePath": "dist",
+      "files": [
+        "**/*"
+      ]
+    }
+  ]
 }

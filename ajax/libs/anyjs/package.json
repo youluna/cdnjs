@@ -21,22 +21,19 @@
     "url": "https://github.com/any-js/anyjs/"
   },
   "homepage": "https://any-js.github.io/",
-  "autoupdate": {
-    "target": "anyjs",
-    "fileMap": [
-      {
-        "basePath": "src",
-        "files": [
-          "any*"
-        ]
-      },
-      {
-        "basePath": "bin",
-        "files": [
-          "any*"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "anyjs",
+  "npmFileMap": [
+    {
+      "basePath": "src",
+      "files": [
+        "any*"
+      ]
+    },
+    {
+      "basePath": "bin",
+      "files": [
+        "any*"
+      ]
+    }
+  ]
 }

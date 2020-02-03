@@ -12,17 +12,14 @@
   ],
   "author": "Steve Ng",
   "license": "MIT",
-  "autoupdate": {
-    "target": "allow-me",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "*.js",
-          "*.css"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "allow-me",
+  "npmFileMap": [
+    {
+      "basePath": "dist",
+      "files": [
+        "*.js",
+        "*.css"
+      ]
+    }
+  ]
 }

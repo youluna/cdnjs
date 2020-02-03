@@ -15,16 +15,13 @@
   "author": "Gregor Aisch",
   "license": "ISC",
   "homepage": "https://gka.github.io/canvid/",
-  "autoupdate": {
-    "target": "canvid",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "canvid*"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "canvid",
+  "npmFileMap": [
+    {
+      "basePath": "",
+      "files": [
+        "canvid*"
+      ]
+    }
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "name": "dexie",
-  "version": "1.5.1",
+  "version": "2.0.4",
   "description": "A Minimalistic Wrapper for IndexedDB",
   "filename": "dexie.min.js",
   "repository": {
@@ -15,16 +15,13 @@
   "author": "David Fahlander",
   "license": "Apache-2.0",
   "homepage": "http://www.dexie.org",
-  "autoupdate": {
-    "target": "dexie",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*.+(js|css|map)"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "dexie",
+  "npmFileMap": [
+    {
+      "basePath": "dist",
+      "files": [
+        "**/!(dexie.es*).+(js|css|map)"
+      ]
+    }
+  ]
 }

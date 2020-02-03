@@ -18,17 +18,14 @@
     "url": "http://krasimirtsonev.com"
   },
   "license": "MIT",
+  "npmName": "cssx",
   "homepage": "https://krasimir.github.io/cssx/",
-  "autoupdate": {
-    "target": "cssx",
-    "fileMap": [
-      {
-        "basePath": "lib",
-        "files": [
-          "**/cssx*.+(js|map|css)"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmFileMap": [
+    {
+      "basePath": "lib",
+      "files": [
+        "**/cssx*.+(js|map|css)"
+      ]
+    }
+  ]
 }

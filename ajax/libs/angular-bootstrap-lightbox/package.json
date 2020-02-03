@@ -19,16 +19,13 @@
     "name": "Chris Lui",
     "url": "https://github.com/compact"
   },
-  "autoupdate": {
-    "target": "angular-bootstrap-lightbox",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "angular-bootstrap-lightbox",
+  "npmFileMap": [
+    {
+      "basePath": "dist",
+      "files": [
+        "**/*"
+      ]
+    }
+  ]
 }

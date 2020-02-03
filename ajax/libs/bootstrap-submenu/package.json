@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-submenu",
-  "version": "2.0.4",
+  "version": "3.0.1",
   "filename": "js/bootstrap-submenu.min.js",
   "description": "Bootstrap Sub-Menus",
   "keywords": [
@@ -19,16 +19,13 @@
     "url": "git://github.com/vsn4ik/bootstrap-submenu"
   },
   "license": "MIT",
-  "autoupdate": {
-    "target": "bootstrap-submenu",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "bootstrap-submenu",
+  "npmFileMap": [
+    {
+      "basePath": "dist",
+      "files": [
+        "**/*"
+      ]
+    }
+  ]
 }

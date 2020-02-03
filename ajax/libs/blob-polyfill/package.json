@@ -1,7 +1,7 @@
 {
   "name": "blob-polyfill",
   "filename": "Blob.min.js",
-  "version": "1.0.20150320",
+  "version": "4.0.20190430",
   "description": "Blob.js implements the W3C Blob interface in browsers that do not natively support it.",
   "repository": {
     "type": "git",
@@ -17,16 +17,13 @@
     "url": "http://eligrey.com"
   },
   "license": "MIT",
-  "autoupdate": {
-    "target": "blob-polyfill",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "Blob.js"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "blob-polyfill",
+  "npmFileMap": [
+    {
+      "basePath": "",
+      "files": [
+        "Blob.js"
+      ]
+    }
+  ]
 }

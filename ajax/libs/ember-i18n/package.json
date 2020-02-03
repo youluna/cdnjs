@@ -1,7 +1,6 @@
 {
   "name": "ember-i18n",
   "version": "2.9.1",
-  "licence": "APLv2",
   "description": "Internationalization for Ember",
   "keywords": [
     "ember",
@@ -14,17 +13,14 @@
     "url": "git://github.com/jamesarosen/ember-i18n.git"
   },
   "filename": "i18n.min.js",
-  "license": "Apache-2.0",
-  "autoupdate": {
-    "target": "ember-i18n",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "*.js"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "ember-i18n",
+  "npmFileMap": [
+    {
+      "basePath": "dist",
+      "files": [
+        "*.js"
+      ]
+    }
+  ],
+  "license": "Apache-2.0"
 }

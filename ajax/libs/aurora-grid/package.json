@@ -1,7 +1,7 @@
 {
   "name": "aurora-grid",
   "filename": "aurora-grid.min.css",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Grid system for Aurora Kit",
   "repository": {
     "type": "git",
@@ -18,19 +18,13 @@
   },
   "license": "MIT",
   "homepage": "http://themes-pixeden.com/aurora-kit/grid",
-  "dependencies": {
-    "aurora-shared": "^1.0.0"
-  },
-  "autoupdate": {
-    "target": "aurora-grid",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "aurora-grid",
+  "npmFileMap": [
+    {
+      "basePath": "dist",
+      "files": [
+        "**/*"
+      ]
+    }
+  ]
 }

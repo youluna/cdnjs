@@ -14,18 +14,15 @@
     "layout"
   ],
   "license": "BSD",
-  "autoupdate": {
-    "target": "css-layout",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "css-layout.js",
-          "css-layout.min.js",
-          "css-layout.min.js.map"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "css-layout",
+  "npmFileMap": [
+    {
+      "basePath": "dist",
+      "files": [
+        "css-layout.js",
+        "css-layout.min.js",
+        "css-layout.min.js.map"
+      ]
+    }
+  ]
 }

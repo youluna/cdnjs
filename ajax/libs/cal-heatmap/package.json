@@ -9,9 +9,6 @@
     "d3js",
     "heat map"
   ],
-  "dependencies": {
-    "d3": ">= v3.0.6"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/wa0x6e/cal-heatmap.git"
@@ -22,16 +19,13 @@
     "url": "http://www.kamisama.me"
   },
   "license": "MIT",
-  "autoupdate": {
-    "target": "cal-heatmap",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "cal-heatmap*"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "cal-heatmap",
+  "npmFileMap": [
+    {
+      "basePath": "",
+      "files": [
+        "cal-heatmap*"
+      ]
+    }
+  ]
 }

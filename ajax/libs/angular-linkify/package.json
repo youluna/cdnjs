@@ -1,6 +1,6 @@
 {
   "name": "angular-linkify",
-  "version": "1.2.1",
+  "version": "2.0.0",
   "filename": "angular-linkify.min.js",
   "description": "Angular filter to linkify urls, \"@\" usernames, and hashtags.",
   "repository": {
@@ -16,16 +16,13 @@
   ],
   "author": "Scott Corgan",
   "license": "MIT",
-  "autoupdate": {
-    "target": "angular-linkify",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "angular-linkify*"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "angular-linkify",
+  "npmFileMap": [
+    {
+      "basePath": "",
+      "files": [
+        "angular-linkify*"
+      ]
+    }
+  ]
 }

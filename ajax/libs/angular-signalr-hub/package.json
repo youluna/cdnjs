@@ -1,7 +1,7 @@
 {
   "name": "angular-signalr-hub",
   "filename": "signalr-hub.min.js",
-  "version": "1.6.2",
+  "version": "1.6.3",
   "description": "A handy wrapper for SignalR Hubs. Just specify the hub name, listening functions, and methods that you're going to use.",
   "repository": {
     "type": "git",
@@ -16,16 +16,13 @@
   ],
   "author": "Justin Maier <just.maier@gmail.com> (http://justinmaier.com)",
   "license": "MIT",
-  "autoupdate": {
-    "target": "angular-signalr-hub",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "signalr-hub*"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "angular-signalr-hub",
+  "npmFileMap": [
+    {
+      "basePath": "",
+      "files": [
+        "signalr-hub*"
+      ]
+    }
+  ]
 }

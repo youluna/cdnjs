@@ -19,17 +19,14 @@
     "event",
     "dom"
   ],
-  "autoupdate": {
-    "target": "bean",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "bean.js",
-          "bean.min.js"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "bean",
+  "npmFileMap": [
+    {
+      "basePath": "",
+      "files": [
+        "bean.js",
+        "bean.min.js"
+      ]
+    }
+  ]
 }

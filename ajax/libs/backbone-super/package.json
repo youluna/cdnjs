@@ -13,16 +13,13 @@
     "type": "git",
     "url": "https://github.com/lukasolson/backbone-super"
   },
-  "autoupdate": {
-    "target": "backbone-super",
-    "fileMap": [
-      {
-        "basePath": "backbone-super",
-        "files": [
-          "backbone-super*.js"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "backbone-super",
+  "npmFileMap": [
+    {
+      "basePath": "backbone-super",
+      "files": [
+        "backbone-super*.js"
+      ]
+    }
+  ]
 }

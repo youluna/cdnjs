@@ -10,22 +10,16 @@
     "type": "git",
     "url": "https://github.com/algolia/autocomplete.js.git"
   },
-  "dependencies": {
-    "jquery": ">= 1.7"
-  },
-  "version": "0.23.0",
+  "version": "0.37.1",
+  "npmName": "autocomplete.js",
+  "npmFileMap": [
+    {
+      "basePath": "dist",
+      "files": [
+        "**/*"
+      ]
+    }
+  ],
   "filename": "autocomplete.jquery.min.js",
-  "author": "Algolia Team <support@algolia.com>",
-  "autoupdate": {
-    "target": "autocomplete.js",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "author": "Algolia Team <support@algolia.com>"
 }

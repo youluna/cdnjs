@@ -18,16 +18,13 @@
   "author": "Wes Cruver",
   "license": "MIT",
   "homepage": "https://chieffancypants.github.io/angular-loading-bar",
-  "autoupdate": {
-    "target": "angular-loading-bar",
-    "fileMap": [
-      {
-        "basePath": "build",
-        "files": [
-          "*"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "angular-loading-bar",
+  "npmFileMap": [
+    {
+      "basePath": "build",
+      "files": [
+        "*"
+      ]
+    }
+  ]
 }

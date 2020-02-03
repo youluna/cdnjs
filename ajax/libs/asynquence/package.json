@@ -1,7 +1,7 @@
 {
   "name": "asynquence",
   "filename": "asq.js",
-  "version": "0.10.0",
+  "version": "0.10.2",
   "author": {
     "email": "getify@gmail.com",
     "name": "Kyle Simpson"
@@ -20,16 +20,13 @@
     "type": "git",
     "url": "git://github.com/getify/asynquence.git"
   },
-  "autoupdate": {
-    "target": "asynquence",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "asq*"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "asynquence",
+  "npmFileMap": [
+    {
+      "basePath": "",
+      "files": [
+        "asq*"
+      ]
+    }
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "name": "angularjs-datepicker",
-  "version": "2.1.8",
+  "version": "2.1.23",
   "filename": "angular-datepicker.min.js",
   "description": "A datepicker directive for angularjs.",
   "homepage": "https://720kb.github.io/angular-datepicker",
@@ -21,16 +21,13 @@
     "email": "filippo.oretti@gmail.com",
     "url": "https://github.com/45kb"
   },
-  "autoupdate": {
-    "target": "angularjs-datepicker",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "angularjs-datepicker",
+  "npmFileMap": [
+    {
+      "basePath": "dist",
+      "files": [
+        "**/*"
+      ]
+    }
+  ]
 }

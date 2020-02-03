@@ -1,7 +1,7 @@
 {
   "name": "dom-to-image",
   "filename": "dom-to-image.min.js",
-  "version": "2.5.2",
+  "version": "2.6.0",
   "description": "Generates an image from a DOM node using HTML5 canvas and SVG",
   "repository": {
     "type": "git",
@@ -21,22 +21,19 @@
     "email": "anatoly.sayenko@gmail.com"
   },
   "license": "MIT",
-  "autoupdate": {
-    "target": "dom-to-image",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*"
-        ]
-      },
-      {
-        "basePath": "src",
-        "files": [
-          "dom-to-image*"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "dom-to-image",
+  "npmFileMap": [
+    {
+      "basePath": "dist",
+      "files": [
+        "**/*"
+      ]
+    },
+    {
+      "basePath": "src",
+      "files": [
+        "dom-to-image*"
+      ]
+    }
+  ]
 }

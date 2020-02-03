@@ -1,6 +1,6 @@
 {
   "name": "document-register-element",
-  "version": "1.3.0",
+  "version": "1.14.3",
   "description": "A stand-alone working lightweight version of the W3C Custom Elements specification",
   "keywords": [
     "Web",
@@ -23,17 +23,14 @@
     "url": "git://github.com/WebReflection/document-register-element.git"
   },
   "filename": "document-register-element.js",
-  "license": "MIT",
-  "autoupdate": {
-    "target": "document-register-element",
-    "fileMap": [
-      {
-        "basePath": "build",
-        "files": [
-          "!(*.node.js)"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "document-register-element",
+  "npmFileMap": [
+    {
+      "basePath": "build",
+      "files": [
+        "!(*.node.js|*.esm.js)"
+      ]
+    }
+  ],
+  "license": "MIT"
 }

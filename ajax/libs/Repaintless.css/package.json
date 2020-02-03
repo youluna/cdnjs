@@ -20,16 +20,13 @@
     "url": "git+https://github.com/szynszyliszys/repaintless.git"
   },
   "version": "1.4.0",
-  "autoupdate": {
-    "target": "repaintless",
-    "fileMap": [
-      {
-        "basePath": "repaintless-css",
-        "files": [
-          "repaintless*"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "repaintless",
+  "npmFileMap": [
+    {
+      "basePath": "repaintless-css",
+      "files": [
+        "repaintless*"
+      ]
+    }
+  ]
 }

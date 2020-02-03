@@ -19,21 +19,15 @@
     "type": "git",
     "url": "https://github.com/millermedeiros/crossroads.js.git"
   },
-  "dependencies": {
-    "signals": "<2.0"
-  },
-  "license": "MIT",
-  "autoupdate": {
-    "target": "crossroads",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "crossroads.js",
-          "crossroads.min.js"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "crossroads",
+  "npmFileMap": [
+    {
+      "basePath": "dist",
+      "files": [
+        "crossroads.js",
+        "crossroads.min.js"
+      ]
+    }
+  ],
+  "license": "MIT"
 }

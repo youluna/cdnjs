@@ -17,18 +17,15 @@
     "type": "git",
     "url": "https://github.com/square/crossfilter.git"
   },
-  "license": "Apache-2.0",
-  "autoupdate": {
-    "target": "crossfilter",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "crossfilter.js",
-          "crossfilter.min.js"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "crossfilter",
+  "npmFileMap": [
+    {
+      "basePath": "",
+      "files": [
+        "crossfilter.js",
+        "crossfilter.min.js"
+      ]
+    }
+  ],
+  "license": "Apache-2.0"
 }

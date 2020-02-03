@@ -11,20 +11,17 @@
   ],
   "author": "Matt Jordan",
   "license": "MIT",
+  "npmName": "colors.js",
+  "npmFileMap": [
+    {
+      "basePath": "",
+      "files": [
+        "*.min.js"
+      ]
+    }
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/mbjordan/Colors"
-  },
-  "autoupdate": {
-    "target": "colors.js",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "*.min.js"
-        ]
-      }
-    ],
-    "source": "npm"
   }
 }

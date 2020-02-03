@@ -15,16 +15,13 @@
     "type": "git",
     "url": "https://github.com/avinoamr/blueprint.js.git"
   },
-  "autoupdate": {
-    "target": "blueprint",
-    "fileMap": [
-      {
-        "basePath": "lib",
-        "files": [
-          "blueprint*"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "blueprint",
+  "npmFileMap": [
+    {
+      "basePath": "lib",
+      "files": [
+        "blueprint*"
+      ]
+    }
+  ]
 }

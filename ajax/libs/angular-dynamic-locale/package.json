@@ -1,6 +1,6 @@
 {
   "name": "angular-dynamic-locale",
-  "version": "0.1.32",
+  "version": "0.1.37",
   "description": "A minimal module that adds the ability to dynamically change the locale",
   "license": "MIT",
   "filename": "tmhDynamicLocale.min.js",
@@ -12,17 +12,14 @@
     "dynamic",
     "change locale"
   ],
-  "author": "Lucas Galfaso",
-  "autoupdate": {
-    "target": "angular-dynamic-locale",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "angular-dynamic-locale",
+  "npmFileMap": [
+    {
+      "basePath": "dist",
+      "files": [
+        "**/*"
+      ]
+    }
+  ],
+  "author": "Lucas Galfaso"
 }

@@ -14,16 +14,13 @@
   ],
   "author": "Greg Bergé <berge.greg@gmail.com>",
   "license": "MIT",
-  "autoupdate": {
-    "target": "angular-notification",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "angular-notification*"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "angular-notification",
+  "npmFileMap": [
+    {
+      "basePath": "",
+      "files": [
+        "angular-notification*"
+      ]
+    }
+  ]
 }

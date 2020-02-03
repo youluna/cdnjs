@@ -5,7 +5,7 @@
   "name": "babylonjs",
   "filename": "babylon.js",
   "description": "Babylon.js is a JavaScript 3D engine based on webgl.",
-  "version": "2.5.0",
+  "version": "4.0.3",
   "repository": {
     "type": "git",
     "url": "https://github.com/BabylonJS/Babylon.js.git"
@@ -17,16 +17,13 @@
     "webgl"
   ],
   "license": "Apache-2.0",
-  "autoupdate": {
-    "target": "babylonjs",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "babylon*.!(ts)"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "babylonjs",
+  "npmFileMap": [
+    {
+      "basePath": "",
+      "files": [
+        "babylon*.!(ts)"
+      ]
+    }
+  ]
 }

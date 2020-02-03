@@ -1,6 +1,6 @@
 {
   "name": "bulma",
-  "version": "0.2.3",
+  "version": "0.8.0",
   "homepage": "http://bulma.io",
   "author": {
     "name": "jgthms",
@@ -20,16 +20,13 @@
     "responsive",
     "framework"
   ],
-  "autoupdate": {
-    "target": "bulma",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "css/bulma*.+(css|map)"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "bulma",
+  "npmFileMap": [
+    {
+      "basePath": "",
+      "files": [
+        "css/bulma*.+(css|map)"
+      ]
+    }
+  ]
 }

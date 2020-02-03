@@ -1,7 +1,7 @@
 {
   "name": "angular-qrcode",
   "filename": "angular-qrcode.min.js",
-  "version": "6.2.1",
+  "version": "7.2.0",
   "description": "QR Code elements for AngularJS.",
   "keywords": [
     "angular",
@@ -19,20 +19,13 @@
     "email": "scott@monospaced.com",
     "url": "http://scottboyle.co.uk/about"
   },
-  "dependencies": {
-    "angular": ">=1.0.6",
-    "qrcode-generator": "git://github.com/monospaced/bower-qrcode-generator.git#v0.1.0"
-  },
-  "autoupdate": {
-    "target": "angular-qrcode",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "angular-qrcode*"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "angular-qrcode",
+  "npmFileMap": [
+    {
+      "basePath": "",
+      "files": [
+        "angular-qrcode*"
+      ]
+    }
+  ]
 }

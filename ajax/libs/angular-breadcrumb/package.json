@@ -17,16 +17,13 @@
     "angular",
     "breadcrumb"
   ],
-  "autoupdate": {
-    "target": "angular-breadcrumb",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "angular-breadcrumb",
+  "npmFileMap": [
+    {
+      "basePath": "dist",
+      "files": [
+        "**/*"
+      ]
+    }
+  ]
 }

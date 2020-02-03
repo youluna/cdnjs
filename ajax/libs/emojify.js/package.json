@@ -14,16 +14,13 @@
   ],
   "author": "Hassan Khan",
   "license": "MIT",
-  "autoupdate": {
-    "target": "emojify.js",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "emojify.js",
+  "npmFileMap": [
+    {
+      "basePath": "dist",
+      "files": [
+        "**/*"
+      ]
+    }
+  ]
 }

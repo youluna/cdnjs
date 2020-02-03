@@ -14,18 +14,14 @@
   ],
   "author": "James Hartig <fastest963@gmail.com>",
   "license": "BSD",
-  "readmeFilename": "README.md",
-  "filename": "chainloading.min.js",
-  "autoupdate": {
-    "target": "chainloading",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "chainloading.min.js"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "chainloading",
+  "npmFileMap": [
+    {
+      "basePath": "",
+      "files": [
+        "chainloading.min.js"
+      ]
+    }
+  ],
+  "filename": "chainloading.min.js"
 }

@@ -1,8 +1,9 @@
 {
   "name": "bootstrap-slider",
-  "version": "9.5.4",
+  "version": "10.6.2",
   "description": "Slider view component for Twitter Bootstrap.",
   "filename": "bootstrap-slider.min.js",
+  "npmName": "bootstrap-slider",
   "repository": {
     "type": "git",
     "url": "git://github.com/seiyria/bootstrap-slider.git"
@@ -15,17 +16,12 @@
     "twitter",
     "slide"
   ],
-  "readmeFilename": "README.md",
-  "autoupdate": {
-    "target": "bootstrap-slider",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmFileMap": [
+    {
+      "basePath": "dist",
+      "files": [
+        "**/*"
+      ]
+    }
+  ]
 }

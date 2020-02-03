@@ -1,7 +1,7 @@
 {
   "name": "blueimp-md5",
   "filename": "js/md5.min.js",
-  "version": "2.6.0",
+  "version": "2.12.0",
   "title": "JavaScript MD5",
   "description": "JavaScript MD5 implementation.",
   "keywords": [
@@ -16,18 +16,15 @@
     "type": "git",
     "url": "git://github.com/blueimp/JavaScript-MD5.git"
   },
-  "license": "MIT",
-  "autoupdate": {
-    "target": "blueimp-md5",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "js/md5.js",
-          "js/md5.min.js"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "blueimp-md5",
+  "npmFileMap": [
+    {
+      "basePath": "",
+      "files": [
+        "js/md5.js",
+        "js/md5.min.js"
+      ]
+    }
+  ],
+  "license": "MIT"
 }

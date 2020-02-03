@@ -1,7 +1,7 @@
 {
   "name": "console-polyfill",
   "filename": "index.min.js",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "description": "Browser console polyfill. Makes it safe to do console.log()-s etc always.",
   "repository": {
     "type": "git",
@@ -13,16 +13,13 @@
     "console",
     "polyfill"
   ],
-  "autoupdate": {
-    "target": "console-polyfill",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "index*"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "console-polyfill",
+  "npmFileMap": [
+    {
+      "basePath": "",
+      "files": [
+        "index*"
+      ]
+    }
+  ]
 }

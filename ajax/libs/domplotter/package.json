@@ -15,17 +15,14 @@
     "url": "https://github.com/AFASSoftware/maquette"
   },
   "filename": "domplotter.min.js",
-  "license": "MIT",
-  "autoupdate": {
-    "target": "domplotter",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "*.js"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "domplotter",
+  "npmFileMap": [
+    {
+      "basePath": "dist",
+      "files": [
+        "*.js"
+      ]
+    }
+  ],
+  "license": "MIT"
 }

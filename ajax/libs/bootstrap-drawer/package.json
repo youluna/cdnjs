@@ -23,21 +23,14 @@
   ],
   "author": "Caroline Amaba <her@carolineamaba.com>",
   "license": "ISC",
-  "dependencies": {
-    "jquery": "2.x",
-    "bootstrap": "3.x"
-  },
   "homepage": "https://clineamb.github.io/bootstrap-drawer/",
-  "autoupdate": {
-    "target": "bootstrap-drawer",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "bootstrap-drawer",
+  "npmFileMap": [
+    {
+      "basePath": "dist",
+      "files": [
+        "**/*"
+      ]
+    }
+  ]
 }

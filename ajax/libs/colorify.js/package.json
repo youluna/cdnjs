@@ -22,16 +22,13 @@
     "extraction",
     "gradients"
   ],
-  "autoupdate": {
-    "target": "colorify.js",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "+(scripts|styles)/colorify*"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "colorify.js",
+  "npmFileMap": [
+    {
+      "basePath": "",
+      "files": [
+        "+(scripts|styles)/colorify*"
+      ]
+    }
+  ]
 }

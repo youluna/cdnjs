@@ -30,20 +30,13 @@
     "url": "git+ssh://git@github.com/AngularClass/angular-websocket.git"
   },
   "license": "Apache-2.0",
-  "dependencies": {
-    "angular": "*",
-    "ws": "^0.7.1"
-  },
-  "autoupdate": {
-    "target": "angular-websocket",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "!(angular-websocket-mock.js)"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "angular-websocket",
+  "npmFileMap": [
+    {
+      "basePath": "dist",
+      "files": [
+        "!(angular-websocket-mock.js)"
+      ]
+    }
+  ]
 }

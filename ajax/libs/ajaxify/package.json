@@ -1,7 +1,7 @@
 {
   "name": "ajaxify",
   "filename": "ajaxify.min.js",
-  "version": "6.6.0",
+  "version": "7.5.4",
   "description": "Ajaxify your site out of the box, instantly",
   "repository": {
     "type": "git",
@@ -25,16 +25,13 @@
   ],
   "author": "Arvind Gupta",
   "license": "MIT",
-  "autoupdate": {
-    "target": "ajaxify",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "ajaxify*"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "ajaxify",
+  "npmFileMap": [
+    {
+      "basePath": "",
+      "files": [
+        "ajaxify*"
+      ]
+    }
+  ]
 }

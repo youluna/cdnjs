@@ -17,16 +17,13 @@
     "type": "git",
     "url": "https://github.com/ded/bonzo.git"
   },
-  "autoupdate": {
-    "target": "bonzo",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "bonzo*"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "bonzo",
+  "npmFileMap": [
+    {
+      "basePath": "",
+      "files": [
+        "bonzo*"
+      ]
+    }
+  ]
 }
