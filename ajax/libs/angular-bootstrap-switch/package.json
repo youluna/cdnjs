@@ -1,7 +1,7 @@
 {
   "name": "angular-bootstrap-switch",
   "filename": "angular-bootstrap-switch.min.js",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "author": {
     "name": "Francesco Pontillo",
     "email": "francescopontillo@gmail.com",
@@ -18,22 +18,13 @@
     "bootstrap-switch",
     "jQuery plugin"
   ],
-  "dependencies": {
-    "angular": ">=1.4.0",
-    "jquery": ">=1.9.0",
-    "bootstrap": ">=2.3.2",
-    "bootstrap-switch": "3.3.2"
-  },
-  "autoupdate": {
-    "target": "angular-bootstrap-switch",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "angular-bootstrap-switch",
+  "npmFileMap": [
+    {
+      "basePath": "dist",
+      "files": [
+        "**/*"
+      ]
+    }
+  ]
 }

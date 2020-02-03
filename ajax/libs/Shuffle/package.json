@@ -1,6 +1,6 @@
 {
   "name": "Shuffle",
-  "version": "4.0.2",
+  "version": "5.2.3",
   "description": "Categorize, sort, and filter a responsive grid of items",
   "keywords": [
     "jquery-plugin",
@@ -22,19 +22,13 @@
   },
   "author": "Glen Cheney <cheney.glen@gmail.com>",
   "license": "MIT",
-  "dependencies": {
-    "jquery": ">=1.9.0"
-  },
-  "autoupdate": {
-    "target": "shufflejs",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "shufflejs",
+  "npmFileMap": [
+    {
+      "basePath": "dist",
+      "files": [
+        "**/!(*.esm.js?(.map))"
+      ]
+    }
+  ]
 }

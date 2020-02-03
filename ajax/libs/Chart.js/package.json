@@ -1,28 +1,25 @@
 {
   "name": "Chart.js",
   "filename": "Chart.min.js",
-  "version": "2.4.0",
+  "version": "2.9.3",
   "description": "Simple HTML5 charts using the canvas element.",
   "keywords": [
     "charts"
   ],
   "homepage": "http://www.chartjs.org",
   "author": "nnnick",
+  "npmName": "chart.js",
+  "npmFileMap": [
+    {
+      "basePath": "dist",
+      "files": [
+        "!(docs)"
+      ]
+    }
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/chartjs/Chart.js.git"
   },
-  "license": "MIT",
-  "autoupdate": {
-    "target": "chart.js",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "license": "MIT"
 }

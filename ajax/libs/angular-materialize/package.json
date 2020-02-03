@@ -14,21 +14,15 @@
     "material",
     "framework"
   ],
-  "dependencies": {
-    "node-materialize": "https://github.com/ryepdx/node-materialize/tarball/master"
-  },
-  "filename": "angular-materialize.min.js",
-  "autoupdate": {
-    "target": "angular-materialize",
-    "fileMap": [
-      {
-        "basePath": "src",
-        "files": [
-          "angular-materialize.js",
-          "angular-materialize.min.js"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "angular-materialize",
+  "npmFileMap": [
+    {
+      "basePath": "src",
+      "files": [
+        "angular-materialize.js",
+        "angular-materialize.min.js"
+      ]
+    }
+  ],
+  "filename": "angular-materialize.min.js"
 }

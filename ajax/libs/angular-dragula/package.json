@@ -15,20 +15,13 @@
   ],
   "author": "Nicolas Bevacqua <nicolasbevacqua@gmail.com> (http://bevacqua.io/)",
   "license": "MIT",
-  "dependencies": {
-    "atoa": "1.0.0",
-    "dragula": "3.6.8"
-  },
-  "autoupdate": {
-    "target": "angular-dragula",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*dragula*"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "angular-dragula",
+  "npmFileMap": [
+    {
+      "basePath": "dist",
+      "files": [
+        "**/*dragula*"
+      ]
+    }
+  ]
 }

@@ -1,4 +1,4 @@
-﻿# Contributing to cdnjs Library
+# Contributing to cdnjs Library
 
 ## 0. Overview
 
@@ -33,6 +33,7 @@ Each cdnjs library has a `package.json` file. This file contains required and so
   * `basePath` is the path in the npmjs tarball; it will be ignored when files are copied to cdnjs
   * `files` indicates the file(s) to copy and can be named (e.g., lodash.min.js) or wildcards (e.g., *.js).
 
+
 ### 2.3 Auto-update example
 
 ```js
@@ -50,9 +51,10 @@ Each cdnjs library has a `package.json` file. This file contains required and so
   }
 ```
 
+
 The example in 2.3. parses the `function-plot` tarball, which has this structure:
 
-```
+```text
 |__dist
 | |__function-plot.js
 |__bower.json
@@ -68,9 +70,9 @@ The example in 2.3. parses the `function-plot` tarball, which has this structure
 | |__...
 ```
 
-The auto-update process will locate `dist` (specified in `basePath`) and copy **/* (specified in `files`) to cdnjs, removing the `dist` path. The resulting files in cdnjs will be:
+The auto-update process will locate `dist` (specified in `basePath`) and copy `**/*` (specified in `files`) to cdnjs, removing the `dist` path. The resulting files in cdnjs will be:
 
-```
+```text
 |__ajax
   |__libs
     |__function-plot

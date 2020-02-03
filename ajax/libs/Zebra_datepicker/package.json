@@ -1,7 +1,7 @@
 {
   "name": "Zebra_datepicker",
-  "filename": "javascript/zebra_datepicker.js",
-  "version": "1.9.4",
+  "filename": "zebra_datepicker.min.js",
+  "version": "1.9.13",
   "homepage": "https://www.stefangabos.ro/jquery/zebra-datepicker/",
   "author": {
     "name": "Stefan Gabos",
@@ -21,16 +21,13 @@
     "ui"
   ],
   "license": "LGPL-3.0",
-  "autoupdate": {
-    "target": "zebra_datepicker",
-    "fileMap": [
-      {
-        "basePath": "public",
-        "files": [
-          "**/*"
-        ]
-      }
-    ],
-    "source": "npm"
-  }
+  "npmName": "zebra_datepicker",
+  "npmFileMap": [
+    {
+      "basePath": "dist",
+      "files": [
+        "**/*"
+      ]
+    }
+  ]
 }
