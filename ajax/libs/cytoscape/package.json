@@ -1,6 +1,6 @@
 {
   "name": "cytoscape",
-  "version": "3.12.3",
+  "version": "3.13.1",
   "filename": "cytoscape.min.js",
   "description": "Graph theory (a.k.a. network) library for analysis and visualisation",
   "homepage": "http://js.cytoscape.org",
