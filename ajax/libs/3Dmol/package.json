@@ -13,7 +13,7 @@
   ],
   "author": "David Koes and contributors",
   "homepage": "http://3dmol.csb.pitt.edu",
-  "npmName": "3Dmol",
+  "npmName": "3dmol",
   "npmFileMap": [
     {
       "basePath": "build",
