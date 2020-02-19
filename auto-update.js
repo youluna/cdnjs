@@ -293,7 +293,6 @@ var updateLibrary = function (pkg, cb) {
     return cb(null)
   }
 
-
   msg = 'Checking versions for ' + pkg.npmName;
   if (pkg.name !== pkg.npmName) {
     msg += ' (' + pkg.name + ')';
