@@ -16,16 +16,13 @@
     "type": "git",
     "url": "https://github.com/chartjs/chartjs-plugin-zoom.git"
   },
-  "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/chartjs/chartjs-plugin-zoom.git",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "+(chartjs-plugin-zoom|Chart.Zoom)*.+(css|js|map)"
-        ]
-      }
-    ]
-  }
+  "npmName": "chartjs-plugin-zoom",
+  "npmFileMap": [
+    {
+      "basePath": "dist",
+      "files": [
+        "**/*"
+      ]
+    }
+  ]
 }
