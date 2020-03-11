@@ -17,15 +17,13 @@
   ],
   "author": "Lea Verou",
   "license": "MIT",
-  "homepage": "http://blissfuljs.com",
+  "homepage": "https://blissfuljs.com",
   "npmName": "blissfuljs",
   "npmFileMap": [
     {
       "basePath": "",
       "files": [
-        "bliss.js",
-        "bliss.min.js",
-        "bliss.shy*.js"
+        "bliss!(._.)*"
       ]
     }
   ]
