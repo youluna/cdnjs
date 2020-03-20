@@ -16,16 +16,13 @@
     "url": "https://github.com/naptha/tesseract.js.git"
   },
   "homepage": "http://tesseract.projectnaptha.com/",
-  "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/naptha/tesseract.js.git",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/!(*.md)"
-        ]
-      }
-    ]
-  }
+  "npmName": "tesseract.js",
+  "npmFileMap": [
+    {
+      "basePath": "dist",
+      "files": [
+        "**/!(*.md)"
+      ]
+    }
+  ]
 }
