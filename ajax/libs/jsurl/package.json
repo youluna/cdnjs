@@ -1,7 +1,7 @@
 {
   "name": "jsurl",
   "filename": "url.min.js",
-  "version": "2.3.1",
+  "version": "2.3.3",
   "description": "Lightweight URL manipulation with JavaScript.",
   "keywords": [
     "url",
