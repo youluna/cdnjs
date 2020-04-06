@@ -319,7 +319,6 @@ node_modules/
 /ajax/libs/*/*/**/*LICENSE
 /ajax/libs/*/*/**/*.LICENSE
 /ajax/libs/*/*/**/*.ai
-/ajax/libs/*/*/**/*.lang
 /ajax/libs/*/*/**/*.yml
 /ajax/libs/*/*/**/*.jade
 /ajax/libs/*/*/**/*.nupkg
