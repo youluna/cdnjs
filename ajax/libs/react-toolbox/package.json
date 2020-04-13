@@ -1,0 +1,32 @@
+{
+  "name": "react-toolbox",
+  "description": "A set of React components implementing Google's Material Design specification with the power of CSS Modules.",
+  "keywords": [
+    "components",
+    "material design",
+    "react",
+    "react-component",
+    "toolkit"
+  ],
+  "author": {
+    "name": "Javier Velasco Arjona",
+    "email": "javier.velasco86@gmail.com",
+    "url": "http://javivelasco.com/"
+  },
+  "license": "MIT",
+  "homepage": "http://www.react-toolbox.io",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/react-toolbox/react-toolbox.git"
+  },
+  "npmName": "react-toolbox",
+  "npmFileMap": [
+    {
+      "basePath": "lib",
+      "files": [
+        "**/*"
+      ]
+    }
+  ],
+  "filename": "index.js"
+}
